@@ -1,0 +1,39 @@
+# Omarchy Cozy-UI Palette & Theme Definition
+# Inspired by Harbor tranquility & Ghost Pastel twilight AE86
+
+[meta]
+name = "Cozy-UI"
+author = "arsh240311"
+variant = "dark"
+
+[colors]
+# Core Canvas & Background
+bg_primary    = "#181a24"   # Deep misty twilight pier
+bg_secondary  = "#202433"   # Smoked harbor slate for inactive windows
+bg_floating   = "#282c3f"   # Elevated floating popups & menus
+
+# Typography & Foreground
+fg_primary    = "#e2e4ee"   # Crisp fog white
+fg_secondary  = "#9ba1b8"   # Muted harbor wood grey
+fg_dim        = "#5b627a"   # Comments and subtle details
+
+# Accents (Extracted from the Master Artwork)
+accent_amber  = "#ffb86c"   # Pop-up headlights & pier lantern glow
+accent_cyan   = "#7aa2f7"   # Calm coastal water reflection
+accent_peach  = "#f6a89e"   # Sunset cloud horizon
+accent_sage   = "#73daca"   # Muted harbor moss / boathouse green
+accent_lavender = "#bb9af7" # Ghost pastel twilight dusk
+
+[hyprland]
+border_active   = "rgba(ffb86caa) rgba(7aa2f7aa) 45deg"
+border_inactive = "rgba(202433aa)"
+border_width    = 2
+gaps_in         = 4
+gaps_out        = 8
+rounding        = 8
+
+[bar]
+position = "top"
+background = "#181a24e6"
+accent = "#ffb86c"
+text = "#e2e4ee"
