@@ -1,0 +1,11 @@
+/* Cozy Harbor Obsidian Minimal Theme */
+body {
+    --background-primary: #181a24;
+    --background-secondary: #14161f;
+    --text-normal: #e2e4ee;
+    --text-muted: #9ba1b8;
+    --interactive-accent: #ffb86c;
+    --interactive-accent-hover: #ffc777;
+    --nav-item-color-active: #ffb86c;
+    --tab-text-color-focused: #ffb86c;
+}

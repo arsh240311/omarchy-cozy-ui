@@ -1,0 +1,69 @@
+# Cozy Harbor AE86 btop theme
+# Eye-friendly low-contrast twilight harbor palette
+
+theme[main_bg]="#181a24"
+theme[main_fg]="#e2e4ee"
+theme[title]="#e2e4ee"
+theme[hi_fg]="#ffb86c"
+theme[selected_bg]="#282c3f"
+theme[selected_fg]="#ffb86c"
+theme[inactive_fg]="#5b627a"
+theme[graph_text]="#9ba1b8"
+theme[meter_bg]="#202433"
+theme[proc_misc]="#7aa2f7"
+
+# Box outlines: soft cyan, violet, amber, green
+theme[cpu_box]="#7aa2f7"
+theme[mem_box]="#bb9af7"
+theme[net_box]="#ffb86c"
+theme[proc_box]="#73daca"
+theme[div_line]="#282c3f"
+
+# Temperature: Calm green -> Amber -> Coral
+theme[temp_start]="#73daca"
+theme[temp_mid]="#ffb86c"
+theme[temp_end]="#f7768e"
+
+# CPU graph: Coastal Cyan -> Warm Amber -> Soft Violet
+theme[cpu_start]="#7aa2f7"
+theme[cpu_mid]="#ffb86c"
+theme[cpu_end]="#bb9af7"
+
+# Memory & disk meters
+theme[free_start]="#bb9af7"
+theme[free_mid]="#7aa2f7"
+theme[free_end]="#73daca"
+
+theme[cached_start]="#7aa2f7"
+theme[cached_mid]="#73daca"
+theme[cached_end]="#bb9af7"
+
+theme[available_start]="#ffb86c"
+theme[available_mid]="#f7768e"
+theme[available_end]="#f7768e"
+
+theme[used_start]="#73daca"
+theme[used_mid]="#7aa2f7"
+theme[used_end]="#ffb86c"
+
+theme[download_start]="#7aa2f7"
+theme[download_mid]="#ffb86c"
+theme[download_end]="#bb9af7"
+
+theme[upload_start]="#73daca"
+theme[upload_mid]="#7aa2f7"
+theme[upload_end]="#ffb86c"
+
+theme[process_start]="#7aa2f7"
+theme[process_mid]="#ffb86c"
+theme[process_end]="#bb9af7"
+
+# Gradients
+theme[gradient_color_0]="#181a24"
+theme[gradient_color_1]="#202433"
+theme[gradient_color_2]="#282c3f"
+theme[gradient_color_3]="#5b627a"
+theme[gradient_color_4]="#9ba1b8"
+theme[gradient_color_5]="#e2e4ee"
+theme[gradient_color_6]="#f8f8f2"
+theme[gradient_color_7]="#ffffff"

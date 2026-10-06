@@ -1,0 +1,31 @@
+/* Cozy Harbor Walker Spotlight Launcher */
+#window {
+    background: transparent;
+}
+
+#box {
+    background: rgba(24, 26, 36, 0.94);
+    border: 2px solid #282c3f;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(16, 18, 26, 0.6);
+}
+
+#input {
+    background: #202433;
+    color: #e2e4ee;
+    border: 1px solid #ffb86c;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+#item {
+    color: #9ba1b8;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+#item:selected {
+    background: #282c3f;
+    color: #ffb86c;
+    border-left: 3px solid #7aa2f7;
+}

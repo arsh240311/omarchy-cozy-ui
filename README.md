@@ -1,49 +1,49 @@
-# 🍵 Cozy UI (`cozy-ui`)
+# 🍵 Omarchy Cozy-UI (Harbor × Ghost Pastel AE86)
 
-> A curated, atmospheric, zero-distraction desktop rice & aesthetic sanctuary for **Omarchy Linux / Hyprland / Arch**.
-> Born out of midnight hacking sessions, first-principles Unix ricing, and the pursuit of peaceful, high-focus computing.
+> Complete, low-contrast, full-system aesthetic suite for **Omarchy Linux** (Arch + Hyprland + Quickshell). Built specifically for zero eye fatigue during long coding, study, and research marathons.
 
----
-
-## 🌌 The Aesthetic Philosophy
-
-`cozy-ui` is a fusion of two legendary aesthetics:
-- **Harbor**: Muted Nordic paper-light and coastal tranquility — misty maritime docks, calm sea reflections, and soft sage-green undertones.
-- **Ghost Pastel**: Lo-fi midnight solitude — soft lavender-dusk gradients, low-contrast velvet blacks, and the quiet presence of vintage Japanese automotive culture (AE86 with warm glowing pop-up headlights).
-
-It is designed specifically to eliminate visual fatigue during late-night programming, mathematical derivations, and deep work sessions.
+![Cozy Harbor Preview](preview.png)
 
 ---
 
-## 🎨 Palette Breakdown
-
-| Role | Color Name | Hex Code | Purpose |
-| :--- | :--- | :--- | :--- |
-| **Base Canvas** | Velvet Pier Black | `#12141a` | Ultra-deep background with zero glare |
-| **Surface Glass** | Smoked Harbor Slate | `#1a1d26` | 85% opacity terminal & window tiles |
-| **Accent Glow** | Warm Lantern Amber | `#ffa066` | Pop-up headlights, border glows, active indicators |
-| **Atmosphere** | Twilight Lavender | `#979fec` | Subdued tags, clock, secondary text |
-| **Foreground** | Misty Sea Foam | `#dcd7ba` | Razor-sharp, low-strain readable typography |
+## 🎨 Design Philosophy
+- **Twilight Pier Slate (`#181a24`)**: Deep calming blue-slate base that eliminates monitor glare.
+- **Headlight Amber Glow (`#ffb86c`)**: Warm retro pop-up headlight accent for focused attention.
+- **Coastal Water Cyan (`#7aa2f7`)**: Cool ocean water gradient for CPU graphs and active window hairline borders.
+- **Fog Mist Typography (`#e2e4ee`)**: Soft white text avoiding harsh high-contrast brightness.
 
 ---
 
-## 🖼️ Included Assets
-
-- **`wallpapers/`**: High-resolution (1080p / 4K) original digital paintings capturing the *Harbor x Ghost Pastel* synthesis (Coastal dock at twilight, calm waters, warm lantern light, solitary pop-up headlight roadster).
-- **`themes/`**: Modular configs for **Omarchy**, **Hyprland**, and **Quickshell**.
+## 📦 What's Included in the Suite
+| Subsystem / Application | Themed Component |
+| :--- | :--- |
+| **Omarchy Core** | `colors.toml` (Official 19-app template specification) |
+| **System Monitor** | `btop.theme` (Low-contrast cyan/amber/violet graphs) |
+| **Window Manager** | `hyprland.conf` (45° Amber/Cyan gradient active borders, soft shadows) |
+| **Terminal** | `foot.ini` (Omarchy native terminal with custom ANSI palette) |
+| **GTK 3 & 4** | `gtk-3.0/gtk.css` & `gtk-4.0/gtk.css` (Native file managers, popups) |
+| **App Launcher** | `walker.css` (Cozy floating spotlight launcher) |
+| **Audio Visualizer** | `cava_theme` (Smooth twilight spectrum) |
+| **Note Taking** | `obsidian.css` (Cozy markdown notes) |
+| **Wallpapers** | `backgrounds/cozy_harbor_ae86.jpg` (Original 1376x768 artwork) |
 
 ---
 
-## 🚀 Quick Setup on Omarchy / Hyprland
+## 🚀 Installation
 
+### 1. In Omarchy Linux (via Terminal)
 ```bash
-# Clone the cozy-ui sanctuary
-git clone https://github.com/arsh240311/cozy-ui.git ~/.config/omarchy/themes/cozy-ui
+omarchy-theme-install https://github.com/arsh240311/omarchy-cozy-ui
+```
 
-# Apply the wallpaper
-omarchy wallpaper set ~/.config/omarchy/themes/cozy-ui/wallpapers/cozy_harbor_ae86.jpg
+### 2. Manual Activation
+```bash
+git clone https://github.com/arsh240311/omarchy-cozy-ui ~/.config/omarchy/themes/cozy-ui
+omarchy-theme-set cozy-ui
 ```
 
 ---
 
-*Crafted by **[arsh240311](https://github.com/arsh240311)** — Built with grit, silence, and open-source rebellion.*
+## 👤 Author
+- **Fasid Arshafwan** ([@arsh240311](https://github.com/arsh240311))
+- *Built with Antigravity & OpenCode on Arch Linux.*
